@@ -47,7 +47,8 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.contact-link,
+.homepage-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -59,13 +60,12 @@ p {
 }
 
 .homepage-link {
-  color: var(--primary-color);
   text-align: center;
   display: block;
+  text-decoration: none;
 }
 
 .about-paragraphs {
-  display: flex;
   margin: 30px 0;
 }
 
@@ -120,5 +120,28 @@ p {
   }
   .project-name {
     color: #6c62ff;
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .about-paragraphs {
+    padding: 0px 20px;
+    margin-bottom: 0px;
+  }
+  .contact-me {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .second-page {
+    padding: 0px 40px;
+  }
+  .page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-me-style,
+  .contact-me {
+    font: 50px;
   }
 }
